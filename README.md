@@ -28,7 +28,6 @@ Two datasets were downloaded from data.ny.gov as csv files:
 -	A retail store has one zip code; one zip code can have many stores (one to many)
 -	A violation at one inspection date must have a retail store; a retail store has N violations (N can be zero, one or many) (one to many)
 -	A violation has one deficiency; a deficiency may exist in many violations (one to many)
-![image](file:///C:/Users/yuanm/Desktop/1.jpg)
 
 #### Construct GUI in Python 3.5: 
 -	Import “mysql.connector” package to connect Python to MariaDB and import “tkinter” package to construct GUI
