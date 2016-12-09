@@ -99,13 +99,18 @@ IGNORE 1 LINES (deficiencyCode, description);
 -	A database called “retailfoodstore” exists in the environment of host='127.0.0.1', port=3306, and user='root'
 -	Packages “tkinter” and “mysql.connector” are successfully installed in Python 3.5
 -	Data files are located in the working directory of Python 3.5
+
 #### Step 1: Open the application called “retailStores.py” in Python 3.5, an interface would prompt out
+
 #### Step 2: Click the red button “Open Db” on the up left corner, a connection would be made between this application and MariaDB. 
+
 #### Step 3: If this is the first time a user running this application, clicking “Create Table” and Import Data” buttons would import the data files into the database. And this needs to be done only once. Every time a user runs the application in the following attempts, there is no need to load the data again. 
+
 #### Step 4: There are five choices for a user to explore the dataset. 
 -	Click “1. Top ten deficiencies recorded” to know the 10 most frequent deficiencies inspected in the retail food stores in New York State
 -	Click “2. Ten entities with the most deficiencies inspected in recent year” to identify the 10 retail food stores that performed the worst in recent year
 -	Click “3. Average square feet of the entities w/ and w/o deficiency” to compare the average square feet of retail stores with and without deficiency inspected
 -	Click “4. Cities/Counties with the most deficiencies” to identify the cities and counties where retail food stores suffer from the most deficiencies 
 -	As instructed, enter the zip code in the empty box at the bottom, and click “5. Stores without deficiency in your area” to explore the well-performing stores in the area of that particular zip code
+
 #### Step 5: Remember to click “Close Db” button to disconnect the database before quitting the application. 
