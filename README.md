@@ -100,7 +100,7 @@ IGNORE 1 LINES (deficiencyCode, description);
 -	Packages “tkinter” and “mysql.connector” are successfully installed in Python 3.5
 -	Data files are located in the working directory of Python 3.5
 
-#### Step 1: Open the application called “retailStores.py” in Python 3.5, an interface would prompt out
+#### Step 1: Open the application called “retailFoodStores.py” in Python 3.5, an interface would prompt out
 
 #### Step 2: Click the red button “Open Db” on the up left corner, a connection would be made between this application and MariaDB. 
 
